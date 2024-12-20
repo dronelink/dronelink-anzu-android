@@ -1,0 +1,4 @@
+include ':dronelink_anzu', ':dronelink_core'
+project(':dronelink_core').projectDir = new File(settingsDir, '../../private/dronelink-core-android/dronelink_core')
+
+rootProject.name='DronelinkAnzu'
